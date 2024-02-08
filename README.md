@@ -13,6 +13,7 @@ models/: This directory contains Mongoose models for defining the schema of dona
 routes/: This directory contains route handlers for different endpoints.
       artworkRoutes.js: Route handlers for managing artwork-related endpoints.
       userRoutes.js: Route handlers for managing user-related endpoints.
+      commentRoutes.js for handling comment-related endpoints
 controllers/: This directory contains controller functions that handle the business logic for different endpoints.
      artworkController.js: Controller functions for managing artwork-related operations.
      userController.js: Controller functions for managing user-related operations.
