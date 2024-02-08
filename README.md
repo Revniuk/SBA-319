@@ -10,6 +10,7 @@ server.js: The main entry point of the application.  Set up the Express server, 
 models/: This directory contains Mongoose models for defining the schema of donated artworks and user accounts.
       artwork.js: Mongoose model for artwork schema.
       user.js: Mongoose model for user schema.
+      Comment.js: Mongoose model for comments
 routes/: This directory contains route handlers for different endpoints.
       artworkRoutes.js: Route handlers for managing artwork-related endpoints.
       userRoutes.js: Route handlers for managing user-related endpoints.
