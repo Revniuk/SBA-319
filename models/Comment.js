@@ -20,3 +20,17 @@ const commentSchema = new mongoose.Schema({
 const Comment = mongoose.model('Comment', commentSchema);
 
 module.exports = Comment;
+
+
+// // Utilize reasonable data modeling practices (page 1, 10%
+
+class Comment {
+  constructor(id, text, author, artworkId) {
+    this.id = id;
+    this.text = text;
+    this.author = author;
+    this.artworkId = artworkId;
+  }
+}
+
+module.exports = Comment;
