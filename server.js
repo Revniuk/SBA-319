@@ -30,6 +30,7 @@ app.use('/api/artworks', artworkRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/comments', commentRoutes);
 app.use('/api', getDataRoutes); 
+app.use('/api', postDataRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
