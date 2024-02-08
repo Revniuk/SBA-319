@@ -31,6 +31,8 @@ app.use('/api/users', userRoutes);
 app.use('/api/comments', commentRoutes);
 app.use('/api', getDataRoutes); 
 app.use('/api', postDataRoutes);
+app.use('/api', updateDataRoutes);
+pp.use('/api', deleteDataRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
